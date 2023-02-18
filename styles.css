@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:0;
+    gap:50px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(181, 179, 179);
+    align-items: center;
+    font-size: 18px;
+    font-style: #E5E7EB;
+    padding: 0px 15px;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    width: max-content;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding:0;
+    gap: 50px;
+    justify-content: center;
+    color: black;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background: #1F2937;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    justify-content: center;
+    gap: 15px;
+}
+
+.block img,
+.block {
+    height: auto;
+    width: 150px;
+  
+}
+
+.quote{
+    font-size: 18px;
+    width:1000px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    border-radius: 10px;
+    padding:20px;
+}
+
+.Top{
+    margin:0;
+    padding:0;
+}
+
+.Newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    border-radius: 15px;
+    margin: 0px 500px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+
+img{
+    border-radius: 15px;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.MainText {
+    font-size: 40px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.SecondaryText{
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.Middle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Middle-Bottom {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    
+}
+
+button {
+    font-size: 18px;
+    color:#1F2937;
+}
